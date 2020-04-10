@@ -12,15 +12,15 @@ export default [
     input,
     output: {
       file: packageJSON.main,
-      format: "cjs"
+      format: "cjs",
     },
     plugins: [
       babel({
-        exclude: "node_modules/**"
+        exclude: "node_modules/**",
       }),
       external(),
       resolve(),
-      commonjs()
-    ]
-  }
+      commonjs(),
+    ],
+  },
 ];

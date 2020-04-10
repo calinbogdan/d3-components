@@ -1,6 +1,4 @@
-import { createContext } from "react";
+import AxisBottom from "/components/Axis/AxisBottom";
 
-const RandomContext = createContext(null);
-
-export { Hello } from "components/Hello";
 export { scaleLinear } from "d3";
+export { AxisBottom };
